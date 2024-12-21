@@ -1,7 +1,25 @@
-# TodoListgRPC To-Do Application
+# gRPC To-Do Application
 
 This is a simple gRPC-based To-Do application built using Node.js. The project includes a server and client, where the client interacts with the server to create to-do items and fetch them via gRPC calls.
 
+### **What is gRPC?**
+
+gRPC (gRPC Remote Procedure Call) is a framework developed by Google for high-performance, language-agnostic communication. It uses Protocol Buffers (protobuf) for efficient serialization.
+
+### Key Features of gRPC
+
+**Cross-Language Support:** Works across multiple programming languages.
+
+**Streaming:** Supports bidirectional streaming.
+
+**Scalable:** Ideal for microservices architecture.
+
+### Pros & Cons of gRPC
+**Pros:** High performance, type safety, scalability.
+
+**Cons:** Learning curve, debugging binary data, limited browser support.
+
+---
 ## Features
 **Create To-Do:**  Add new to-do items to the server.
 
@@ -11,6 +29,7 @@ This is a simple gRPC-based To-Do application built using Node.js. The project i
 
 This project is based on Hussein Nasser's gRPC crash course - https://www.youtube.com/watch?v=Yw4rkaTc0f8&t=1348s&ab_channel=HusseinNasser
 
+---
 ## Project Structure
 ![alt text](image.png)
 
@@ -33,6 +52,7 @@ Defines the gRPC service and messages:
 
 **TodoItems:** A collection of TodoItem.
 
+---
 ## Setup and Usage
 
 **Prerequisites**
@@ -55,6 +75,8 @@ Defines the gRPC service and messages:
 * Run the client, and pass the todo as an command line argument
     ```node client.js "Do Laundry"```
 
+
+---
 ## Example workflow
 ![alt text](image-1.png)
 
